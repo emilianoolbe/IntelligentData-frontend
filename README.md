@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![IntelligentData Logo](./public/intelligentData_logo_complete_removebg.png)
+<img src="./public/Logos/intelligentData_logo_complete.png" alt="IntelligentData Logo" width="400"/>
 
 **Modern Data Intelligence Platform**
 
@@ -14,6 +14,74 @@
 [![React Query](https://img.shields.io/badge/React_Query-5-FF4154?style=flat&logo=react-query)](https://tanstack.com/query/latest)
 
 </div>
+
+---
+
+## 🚀 Instalación y Comandos
+
+### Requisitos Previos
+
+- **Node.js** 20+
+- **pnpm** (recomendado) o npm
+
+---
+
+### 🔧 Instalación - Primera Vez
+
+```bash
+# 1. Clonar el repositorio
+git clone https://github.com/emilianoolbe/IntelligentData-frontend.git
+cd IntelligentData-frontend
+
+# 2. Instalar dependencias
+pnpm install
+
+# 3. Crear archivo de entorno
+cp .env.example .env
+
+# 4. Configurar variables de entorno
+# Editar .env con los valores correctos:
+# VITE_API_URL=http://localhost:3000/api
+# VITE_APP_NAME=IntelligentData
+```
+
+---
+
+### 💻 Uso Diario
+
+```bash
+# Iniciar servidor de desarrollo
+pnpm dev
+
+# Ejecutar tests
+pnpm test
+
+# Ejecutar tests con coverage
+pnpm test:coverage
+
+# Build para producción
+pnpm build
+
+# Preview del build de producción
+pnpm preview
+
+# Linting
+pnpm lint
+```
+
+---
+
+### 📋 Scripts Disponibles
+
+| Comando | Descripción |
+|---------|-------------|
+| `pnpm dev` | Inicia servidor de desarrollo en `http://localhost:5173` |
+| `pnpm build` | Genera build de producción en `dist/` |
+| `pnpm preview` | Previsualiza build de producción |
+| `pnpm test` | Ejecuta todos los tests |
+| `pnpm test:watch` | Ejecuta tests en modo watch |
+| `pnpm test:coverage` | Ejecuta tests con reporte de cobertura |
+| `pnpm lint` | Ejecuta ESLint |
 
 ---
 
@@ -78,57 +146,6 @@ src/
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js 20+
-- pnpm (recommended) or npm
-
-### Installation
-
-```bash
-# Clone the repository
-git clone <repository-url>
-cd IntelligentData-frontend
-
-# Install dependencies
-pnpm install
-
-# Copy environment variables
-cp .env.example .env
-```
-
-### Environment Variables
-
-Create a `.env` file with the following variables:
-
-```env
-VITE_API_URL=http://localhost:3000/api
-VITE_APP_NAME=IntelligentData
-```
-
-### Development
-
-```bash
-# Start development server
-pnpm dev
-
-# Run tests
-pnpm test
-
-# Run tests with coverage
-pnpm test:coverage
-
-# Build for production
-pnpm build
-
-# Preview production build
-pnpm preview
-```
-
----
-
 ## 🧪 Testing
 
 The project maintains comprehensive test coverage:
@@ -181,6 +198,13 @@ pnpm test src/features/auth/__tests__
 ---
 
 ## 🔧 Configuration
+
+### Environment Variables
+
+```env
+VITE_API_URL=http://localhost:3000/api
+VITE_APP_NAME=IntelligentData
+```
 
 ### Tailwind CSS
 
@@ -276,6 +300,6 @@ This project is proprietary and confidential.
 
 <div align="center">
 
-**Built with ❤️by the IntelligentData Team**
+**Built with ❤️ by the IntelligentData Team**
 
 </div>
