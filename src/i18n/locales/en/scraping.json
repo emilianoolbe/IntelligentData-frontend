@@ -1,0 +1,168 @@
+{
+  "title": "Manual Scraping",
+  "subtitle": "Extract product data from different sources",
+  "form": {
+    "product": "Product",
+    "productPlaceholder": "Select a product",
+    "month": "Month",
+    "monthPlaceholder": "Select a month",
+    "year": "Year",
+    "yearPlaceholder": "Select a year",
+    "customUrl": "Custom URL (optional)",
+    "customUrlPlaceholder": "https://example.com/product",
+    "customUrlHelper": "Optionally enter a specific URL for scraping",
+    "submit": "Extract Data",
+    "submitting": "Extracting...",
+    "reset": "Clear",
+    "errors": {
+      "productRequired": "Product is required",
+      "monthRequired": "Month is required",
+      "yearRequired": "Year is required",
+      "invalidUrl": "Invalid URL format"
+    }
+  },
+  "results": {
+    "title": "Results",
+    "subtitle": "Data extracted successfully",
+    "count": "{{count}} products found",
+    "empty": "No products found",
+    "noResults": "No data extracted yet. Fill the form and press \"Extract Data\"",
+    "table": {
+      "title": "Title",
+      "price": "Price",
+      "source": "Source",
+      "available": "Available",
+      "seller": "Seller",
+      "scrapedAt": "Extracted",
+      "actions": "Actions",
+      "viewDetails": "View details",
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "status": {
+    "idle": "Ready to extract data",
+    "loading": "Extracting data... Please wait.",
+    "success": "Data extracted successfully!",
+    "error": "Failed to extract data"
+  },
+  "errors": {
+    "networkError": "Connection error. Check your internet.",
+    "serverError": "Server error. Try again later.",
+    "unauthorized": "Your session has expired. Please log in again.",
+    "unknown": "Unknown error. Please try again."
+  },
+  "products": {
+    "mercadolibre": "MercadoLibre",
+    "amazon": "Amazon",
+    "fravega": "Fravega"
+  },
+  "months": {
+    "01": "January",
+    "02": "February",
+    "03": "March",
+    "04": "April",
+    "05": "May",
+    "06": "June",
+    "07": "July",
+    "08": "August",
+    "09": "September",
+    "10": "October",
+    "11": "November",
+    "12": "December"
+  },
+  "scheduled": {
+    "title": "Scheduled Scraping",
+    "description": "Configure automatic periodic executions",
+    "tabs": {
+      "manual": "Manual",
+      "scheduled": "Scheduled"
+    },
+    "form": {
+      "createTitle": "New Schedule",
+      "editTitle": "Edit Schedule",
+      "product": "Product",
+      "productPlaceholder": "Select a product",
+      "frequency": "Frequency",
+      "frequencyPlaceholder": "Select frequency",
+      "customCron": "Custom Cron Expression",
+      "customCronPlaceholder": "0 0 * * *",
+      "customCronHelper": "Format: minute hour day-of-month month day-of-week",
+      "active": "Active",
+      "submit": "Save schedule",
+      "submitting": "Saving...",
+      "errors": {
+        "productRequired": "Product is required",
+        "frequencyRequired": "Frequency is required",
+        "invalidCron": "Invalid cron expression"
+      }
+    },
+    "frequencies": {
+      "hourly": "Hourly",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "custom": "Custom"
+    },
+    "list": {
+      "title": "Active Schedules",
+      "empty": "No active schedules",
+      "emptyHint": "Create a new schedule to get started",
+      "headers": {
+        "product": "Product",
+        "frequency": "Frequency",
+        "nextRun": "Next Run",
+        "lastRun": "Last Run",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "status": {
+        "active": "Active",
+        "paused": "Paused",
+        "error": "Error"
+      },
+      "actions": {
+        "pause": "Pause",
+        "resume": "Resume",
+        "delete": "Delete",
+        "viewHistory": "View history"
+      }
+    },
+    "delete": {
+      "title": "Delete schedule",
+      "description": "Are you sure you want to delete this schedule? This action cannot be undone.",
+      "confirm": "Delete",
+      "cancel": "Cancel"
+    },
+    "history": {
+      "title": "Execution History",
+      "subtitle": "Execution history for job {{name}}",
+      "empty": "No executions recorded",
+      "headers": {
+        "date": "Date",
+        "status": "Status",
+        "items": "Items",
+        "duration": "Duration"
+      },
+      "status": {
+        "success": "Success",
+        "failed": "Failed",
+        "running": "In Progress"
+      },
+      "actions": {
+        "viewDetails": "View details",
+        "back": "Back"
+      }
+    },
+    "notifications": {
+      "jobCreated": "Schedule created successfully",
+      "jobUpdated": "Schedule updated",
+      "jobDeleted": "Schedule deleted",
+      "jobPaused": "Schedule paused",
+      "jobResumed": "Schedule resumed",
+      "executionCompleted": "Execution completed: {{product}}",
+      "executionFailed": "Execution failed: {{product}}",
+      "errorPrefix": "Error: "
+    }
+  }
+}

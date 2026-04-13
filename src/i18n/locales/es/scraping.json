@@ -1,0 +1,168 @@
+{
+  "title": "Scraping Manual",
+  "subtitle": "Extrae datos de productos desde diferentes fuentes",
+  "form": {
+    "product": "Producto",
+    "productPlaceholder": "Selecciona un producto",
+    "month": "Mes",
+    "monthPlaceholder": "Selecciona un mes",
+    "year": "Año",
+    "yearPlaceholder": "Selecciona un año",
+    "customUrl": "URL personalizada (opcional)",
+    "customUrlPlaceholder": "https://ejemplo.com/producto",
+    "customUrlHelper": "Opcionalmente ingresa una URL específica para scraping",
+    "submit": "Extraer datos",
+    "submitting": "Extrayendo...",
+    "reset": "Limpiar",
+    "errors": {
+      "productRequired": "El producto es requerido",
+      "monthRequired": "El mes es requerido",
+      "yearRequired": "El año es requerido",
+      "invalidUrl": "La URL no es válida"
+    }
+  },
+  "results": {
+    "title": "Resultados",
+    "subtitle": "Datos extraídos exitosamente",
+    "count": "{{count}} productos encontrados",
+    "empty": "No se encontraron productos",
+    "noResults": "Aún no se han extraído datos. Completa el formulario y presiona \"Extraer datos\"",
+    "table": {
+      "title": "Título",
+      "price": "Precio",
+      "source": "Fuente",
+      "available": "Disponible",
+      "seller": "Vendedor",
+      "scrapedAt": "Extraído",
+      "actions": "Acciones",
+      "viewDetails": "Ver detalles",
+      "yes": "Sí",
+      "no": "No"
+    }
+  },
+  "status": {
+    "idle": "Listo para extraer datos",
+    "loading": "Extrayendo datos... Por favor espera.",
+    "success": "¡Datos extraídos exitosamente!",
+    "error": "Error al extraer datos"
+  },
+  "errors": {
+    "networkError": "Error de conexión. Verifica tu internet.",
+    "serverError": "Error del servidor. Intenta más tarde.",
+    "unauthorized": "Tu sesión ha expirado. Inicia sesión nuevamente.",
+    "unknown": "Error desconocido. Intenta nuevamente."
+  },
+  "products": {
+    "mercadolibre": "MercadoLibre",
+    "amazon": "Amazon",
+    "fravega": "Fravega"
+  },
+  "months": {
+    "01": "Enero",
+    "02": "Febrero",
+    "03": "Marzo",
+    "04": "Abril",
+    "05": "Mayo",
+    "06": "Junio",
+    "07": "Julio",
+    "08": "Agosto",
+    "09": "Septiembre",
+    "10": "Octubre",
+    "11": "Noviembre",
+    "12": "Diciembre"
+  },
+  "scheduled": {
+    "title": "Scraping Programado",
+    "description": "Configura ejecuciones automáticas periódicas",
+    "tabs": {
+      "manual": "Manual",
+      "scheduled": "Programado"
+    },
+    "form": {
+      "createTitle": "Nueva Programación",
+      "editTitle": "Editar Programación",
+      "product": "Producto",
+      "productPlaceholder": "Selecciona un producto",
+      "frequency": "Frecuencia",
+      "frequencyPlaceholder": "Selecciona frecuencia",
+      "customCron": "Expresión Cron personalizada",
+      "customCronPlaceholder": "0 0 * * *",
+      "customCronHelper": "Formato: minuto hora día-mes mes día-semana",
+      "active": "Activo",
+      "submit": "Guardar programación",
+      "submitting": "Guardando...",
+      "errors": {
+        "productRequired": "El producto es requerido",
+        "frequencyRequired": "La frecuencia es requerida",
+        "invalidCron": "Expresión cron inválida"
+      }
+    },
+    "frequencies": {
+      "hourly": "Cada hora",
+      "daily": "Diario",
+      "weekly": "Semanal",
+      "monthly": "Mensual",
+      "custom": "Personalizado"
+    },
+    "list": {
+      "title": "Programaciones Activas",
+      "empty": "No hay programaciones activas",
+      "emptyHint": "Crea una nueva programación para comenzar",
+      "headers": {
+        "product": "Producto",
+        "frequency": "Frecuencia",
+        "nextRun": "Próxima ejecución",
+        "lastRun": "Última ejecución",
+        "status": "Estado",
+        "actions": "Acciones"
+      },
+      "status": {
+        "active": "Activo",
+        "paused": "Pausado",
+        "error": "Error"
+      },
+      "actions": {
+        "pause": "Pausar",
+        "resume": "Reanudar",
+        "delete": "Eliminar",
+        "viewHistory": "Ver historial"
+      }
+    },
+    "delete": {
+      "title": "Eliminar programación",
+      "description": "¿Estás seguro de eliminar esta programación? Esta acción no se puede deshacer.",
+      "confirm": "Eliminar",
+      "cancel": "Cancelar"
+    },
+    "history": {
+      "title": "Historial de Ejecuciones",
+      "subtitle": "Historial de ejecuciones del job {{name}}",
+      "empty": "No hay ejecuciones registradas",
+      "headers": {
+        "date": "Fecha",
+        "status": "Estado",
+        "items": "Items",
+        "duration": "Duración"
+      },
+      "status": {
+        "success": "Exitoso",
+        "failed": "Fallido",
+        "running": "En progreso"
+      },
+      "actions": {
+        "viewDetails": "Ver detalles",
+        "back": "Volver"
+      }
+    },
+    "notifications": {
+      "jobCreated": "Programación creada exitosamente",
+      "jobUpdated": "Programación actualizada",
+      "jobDeleted": "Programación eliminada",
+      "jobPaused": "Programación pausada",
+      "jobResumed": "Programación reanudada",
+      "executionCompleted": "Ejecución completada: {{product}}",
+      "executionFailed": "Error en ejecución: {{product}}",
+      "errorPrefix": "Error: "
+    }
+  }
+}

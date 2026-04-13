@@ -1,0 +1,10 @@
+{
+  "appName": "IntelligentData",
+  "footer": {
+    "copyright": "IntelligentData © {{year}}"
+  },
+  "language": {
+    "switchTo": "Cambiar idioma",
+    "current": "Idioma actual"
+  }
+}

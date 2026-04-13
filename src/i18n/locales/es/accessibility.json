@@ -1,0 +1,15 @@
+{
+  "theme": {
+    "switchToLight": "Cambiar a modo claro",
+    "switchToDark": "Cambiar a modo oscuro"
+  },
+  "navigation": {
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "collapseSidebar": "Colapsar sidebar",
+    "expandSidebar": "Expandir sidebar"
+  },
+  "language": {
+    "switchLanguage": "Cambiar idioma"
+  }
+}
